@@ -6,7 +6,7 @@
 
 ## 2.运行效果
 
-![1742278158059](images/README/1742278158059.png)
+![Image](https://github.com/user-attachments/assets/73760241-a4e1-48bb-b786-bcbd482bb021)
 
 ## 3.文件夹结构
 
