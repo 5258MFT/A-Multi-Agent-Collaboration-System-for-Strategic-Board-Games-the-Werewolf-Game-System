@@ -1,0 +1,11 @@
+[
+    
+    {
+        "config_name": "my_model_config",
+        "model_type": "my_model",
+        "model_name": "deepseek-chat",
+        "api_url": "https://api.deepseek.com",
+        "api_key": "your api key"
+    }
+]
+

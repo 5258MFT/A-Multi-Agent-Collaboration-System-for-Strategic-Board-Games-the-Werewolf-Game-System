@@ -1,0 +1,8 @@
+2025-03-18 10:19:23.003 | INFO     | agentscope.models:read_model_configs:186 - Load configs for model wrapper: my_model_config
+2025-03-18 10:19:23.042 | INFO     | agentscope.models.model:__init__:201 - Initialize model by configuration [my_model_config]
+2025-03-18 10:19:23.042 | INFO     | agentscope.models.model:__init__:201 - Initialize model by configuration [my_model_config]
+2025-03-18 10:19:23.043 | INFO     | agentscope.models.model:__init__:201 - Initialize model by configuration [my_model_config]
+2025-03-18 10:19:23.044 | INFO     | agentscope.models.model:__init__:201 - Initialize model by configuration [my_model_config]
+2025-03-18 10:19:23.044 | INFO     | agentscope.models.model:__init__:201 - Initialize model by configuration [my_model_config]
+2025-03-18 10:19:23.045 | INFO     | agentscope.models.model:__init__:201 - Initialize model by configuration [my_model_config]
+Moderator: 狼人们，请在讨论阶段确认彼此身份：Player3 and Player4

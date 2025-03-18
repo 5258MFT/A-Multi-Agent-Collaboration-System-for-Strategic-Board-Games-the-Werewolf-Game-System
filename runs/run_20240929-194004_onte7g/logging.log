@@ -1,0 +1,53 @@
+2024-09-29 19:40:19.961 | INFO     | agentscope.models:read_model_configs:186 - Load configs for model wrapper: my_model_config
+2024-09-29 19:40:20.021 | INFO     | agentscope.models.model:__init__:201 - Initialize model by configuration [my_model_config]
+2024-09-29 19:40:20.023 | INFO     | agentscope.models.model:__init__:201 - Initialize model by configuration [my_model_config]
+2024-09-29 19:40:20.025 | INFO     | agentscope.models.model:__init__:201 - Initialize model by configuration [my_model_config]
+2024-09-29 19:40:20.025 | INFO     | agentscope.models.model:__init__:201 - Initialize model by configuration [my_model_config]
+2024-09-29 19:40:20.026 | INFO     | agentscope.models.model:__init__:201 - Initialize model by configuration [my_model_config]
+2024-09-29 19:40:20.027 | INFO     | agentscope.models.model:__init__:201 - Initialize model by configuration [my_model_config]
+Moderator: 狼人们，请在讨论阶段确认彼此身份：Player1 and Player3
+Player3: 我认为Player1在夜晚遇到了一些不寻常的情况,这可能是狼人行动的迹象。我们应该警惕并密切观察Player1的行为。
+Player1: Player3,你在讨论中的陈述似乎很突然,这让我感到有些不自在。我们是不是在争抢被害者这个角色？
+Moderator: Player3 and Player1, 如果你是唯一的狼人，选择一个玩家淘汰。如果不是，请与你的队友讨论并达成一致意见。
+Player3: Player1,你能告诉我们在夜间做了什么吗？你的行为对我们判断队友非常关键。
+Player1: Player3,昨晚你在讨论中提到了一个非常诡异的点。我想知道,这可能只是直觉的误会,还是在暗示真相。
+Player1: Player3,你提到的那一点的确引起了我的注意。我认为我们需要更仔细地观察彼此的行为,特别是你们狼人之间的动向。
+Player3: 让我们仔细回顾一下每个玩家的夜间行动,看看是否有足够的信息来确认团队中的狼人。
+Moderator: 你投票淘汰Player1, Player2, Player3, Player4, Player5 and Player6中哪个玩家？
+Player1: Player2
+Player3: 
+2024-09-29 19:41:24.361 | WARNING  | werewolf_utils:extract_name_and_id:43 - vote: invalid name , set to Abstain
+Moderator: 得票最多的玩家是Player2.
+Moderator: Player2，你是女巫。今晚Player2被淘汰。你想复活Player2吗？
+Player2: 我提议用我的生命之水来复活Player2。这样做不仅能够排除当前的威胁,还能为我们团队创造更多的时间和机会来发现真正的狼人。
+Moderator: 女巫选择复活Player2。
+Moderator: Player5, 你是预言家。今晚你想查验Player1, Player2, Player3, Player4, Player5 and Player6中的哪个玩家？
+Player5: 我并不知道今晚的检查结果,但我猜测Player1和Player3可能需要我们更多的关注。
+Moderator: 好的，Player1的角色是狼人.
+Moderator: 天亮了，所有玩家睁开眼睛。昨晚平安无事，没有玩家被淘汰。
+Moderator: 现在存活的玩家有Player1, Player2, Player3, Player4, Player5 and Player6。根据游戏规则和你的角色，基于当前的情况和你获得的信息，要在存活的玩家中投票淘汰一个玩家并赢得游戏，你想对其他人说些什么？你可以决定是否揭示你的角色。
+Player1: 昨晚的讨论让我对Player2产生了一些疑问。尽管Player2在某些问题上似乎保持着中立,但他们的话语和沉默却让我陷入了思考。我决定暂时不直接对Player2采取行动,而是通过观察他们的日常行为,找到合适的机会和方式去确认或质疑他们的身份。
+Player3: Player2,我发现你在讨论中表现得非常内敛,能与大家分享更多信息吗？我们对游戏的理解和合作将对我们团队带来好处,不是吗？
+Player2: Player2,我注意到你在这轮讨论中比较沉默。我希望你不要误会,我个人更倾向于倾听而不是主导对话。我对你没有恶意,但如果发现了可能指向你的线索,我仍然会保持公正,并尽我最大的努力确保对整个团队有利的结果。
+Player5: 动态和Player2的合作看起来非常有建设性。我建议我们应该保持当前的团队合作模式,并密切关注任何可能改变局势的动态。
+Player6: Player2,你对我们的昨晚讨论有着一些独特的见解和评论。我非常好奇,你是否愿意分享更多关于你对游戏的理解或个人策略？我相信你的贡献可能会对我们团队的整体策略带来新的视角。
+2024-09-29 19:41:38.597 | WARNING  | agentscope.models.model:checking_wrapper:129 - Fail to parse response (1/3):
+<Response [200]>.
+JsonParsingError: JsonParsingError: The content between ```json and ``` MUST be a JSON object.When parsing "```json
+{"thought": "观察Player2的反应和行为,看看是否能揭示更多关于他们身份的线索。我怀疑他们可能是狼人,需要通过进一步的观察来确认这一点。\
+我注意到Player2在昨天的讨论中显得颇有心机,经常察言观色,对其他人的反应也十分敏感。这可能表明他们在试图掩饰什么。\
+我需要更加谨慎地与Player2互动,同时,继续观察其他玩家,以便更好地分析我们的团队中可能的狼人。\
+在线索足够充分之前,我应该继续保持票数上的安全,避免直接淘汰任何玩家。",
+ "speak": "Player2,我对你的游戏经历充满好奇。作为一个注重团队合作的玩家,你似乎对游戏有着独特见解。我们每个人的角色和策略都可能对获胜起到关键作用。你觉得我们如何能更有效地利用每个人的优势？"}
+```", an error occurred: Invalid \escape: line 2 column 77 (char 77)
+Player4: Player2,我认为我们需要更加了解彼此的策略和动机。游戏进行到现在,你的行为以及与其他玩家互动的方式引发了我一些好奇。我们应该定期进行一次集体的安全讨论,分享我们的疑虑与假设,共同推进游戏进程。
+Moderator: 根据游戏规则和你的角色，基于当前的情况和你获得的信息，为了赢得游戏，现在是时候在存活的玩家中投票淘汰一个玩家。你投票淘汰Player1, Player3, Player2, Player5, Player6 and Player4中哪个玩家？
+Player5: Player2
+Player4:  Player1
+2024-09-29 19:41:44.865 | WARNING  | agentscope.models.model:checking_wrapper:129 - Fail to parse response (1/3):
+<Response [200]>.
+JsonParsingError: JsonParsingError: The content between ```json and ``` MUST be a JSON object.When parsing "```json
+{"thought": "经过昨晚的沉寂观察,我发现Player2在讨论中的沉默可能说明了谨慎和策略。需要持续关注他们的行为是否会有暗示或误导。同时,确保团队中的合作与信息共享是关键。”, "vote": "Player2"}
+```", an error occurred: Expecting ',' delimiter: line 2 column 97 (char 97)
+Player3: Player4
+Player6: Player5

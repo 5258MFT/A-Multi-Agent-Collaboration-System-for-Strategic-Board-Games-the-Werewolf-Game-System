@@ -1,0 +1,76 @@
+2025-03-18 09:53:45.449 | INFO     | agentscope.models:read_model_configs:186 - Load configs for model wrapper: my_model_config
+2025-03-18 09:53:45.502 | INFO     | agentscope.models.model:__init__:201 - Initialize model by configuration [my_model_config]
+2025-03-18 09:53:45.503 | INFO     | agentscope.models.model:__init__:201 - Initialize model by configuration [my_model_config]
+2025-03-18 09:53:45.503 | INFO     | agentscope.models.model:__init__:201 - Initialize model by configuration [my_model_config]
+2025-03-18 09:53:45.504 | INFO     | agentscope.models.model:__init__:201 - Initialize model by configuration [my_model_config]
+2025-03-18 09:53:45.506 | INFO     | agentscope.models.model:__init__:201 - Initialize model by configuration [my_model_config]
+2025-03-18 09:53:45.506 | INFO     | agentscope.models.model:__init__:201 - Initialize model by configuration [my_model_config]
+Moderator: 狼人们，请在讨论阶段确认彼此身份：Player2 and Player6
+Player6: 既然Player6提出了这个问题,让我们一起检查昨晚的监控视频,以确认我们的同伴。
+2025-03-18 09:55:53.596 | WARNING  | agentscope.models.model:checking_wrapper:129 - Fail to parse response (1/3):
+<Response [200]>.
+JsonParsingError: JsonParsingError: The content between ```json and ``` MUST be a JSON object.When parsing "```json
+```", an error occurred: Expecting value: line 2 column 1 (char 1)
+Player2: 让我们一起回顾昨晚的监控视频。我希望我们可以找到一些线索帮助确认昨晚的行为是否可疑。
+Player2: 让我们回顾昨晚的监控视频,特别是狼人们讨论时的情况,看是否发现任何可疑的线索。
+Player6: Player6提出的观看监控视频是一个好主意,我们可以从中寻找任何可疑的行为来确认我们的伙伴。
+Moderator: Player2 and Player6, 如果你是唯一的狼人，选择一个玩家淘汰。如果不是，请与你的队友讨论并达成一致意见。
+Player2: 在昨晚的讨论中,我们或可能提及了一位特定的玩家。我们可以仔细回顾监控录像,看看是否有证据表明有人的行为是可疑的。
+Player6: 观看昨晚录像很重要,特别是在我与Player2讨论时。如果有异常行为,我会基于证据提出我有怀疑的玩家的确切步骤。
+Moderator: 你投票淘汰Player1, Player2, Player3, Player4, Player5 and Player6中哪个玩家？
+Player2: Player1
+Player6: 
+2025-03-18 09:56:01.889 | WARNING  | werewolf_utils:extract_name_and_id:43 - vote: invalid name , set to Abstain
+Moderator: 得票最多的玩家是Player1.
+Moderator: Player1，你是女巫。今晚Player1被淘汰。你想复活Player1吗？
+Player1: 我需要更多证据来决定是否复活Player1。是否有人指控他为狼人？其他人有什么观点？
+Moderator: 女巫选择复活Player1。
+Moderator: Player4, 你是预言家。今晚你想查验Player1, Player2, Player3, Player4, Player5 and Player6中的哪个玩家？
+Player4: 我今晚要查验Player2,让我们看看他的真实身份。
+Moderator: 好的，Player2的角色是狼人.
+Moderator: 天亮了，所有玩家睁开眼睛。昨晚平安无事，没有玩家被淘汰。
+Moderator: 现在存活的玩家有Player1, Player2, Player3, Player4, Player5 and Player6。根据游戏规则和你的角色，基于当前的情况和你获得的信息，要在存活的玩家中投票淘汰一个玩家并赢得游戏，你想对其他人说些什么？你可以决定是否揭示你的角色。
+Player4: 我很高兴昨晚事情平安顺利,现在我们有机会更准确地定位狼人的位置。我很相信Player3和Player6的发言,他们今晚的言行与我们共同的利益是一脉相承的。让我们再次检查现场,同时别忘记维护我们内的团结和平静,我相信一场属于村民的胜利即将到来。
+Player1: 大家好,感谢昨晚的平静。这里有一轮的开场,我想听听每个人对今天下午讨论最重要议题的想法：我们可以用哪些策略来提高我们的团队默契,识别潜在的狼人？我认为交流是我们的关键优势,顺带一提,我们需要保持警惕,因为力量的分散始终意味着危险潜伏。
+Player6: 我很好奇我们昨晚的通力合作是否引起了一些人的注意。让我们开展更愉快的议论,不要忘记我们之间的信任与协作。我们可以在晚上研究策略,明天的我们要用事实证明我们的团结。
+Player5: 让我们紧密团结,共享信息。保持警醒,但不要轻率,这是一场智慧和信任的较量。
+Player2: 我想,我们可以组织～一个晚上,像Player6提议的那样,联合观看监控视频,查看昨晚的动作。这样的合作不仅能确认我们的同伴,也能帮助我们识别出潜在的反派角色。
+Player3: 大家好,昨晚的平安结果是一个乐观的开始。我想我们可以利用这个机会,再次一起回顾那晚的情况。如果有哪位玩家昨晚进行了核酸检测,我们可以讨论一下结果,确保我们的团队中没有人可能受到感染。同时,如果你进行了梦境体验并且注意到任何异常的情况,请分享出来,这对于我们的游戏策略有很大帮助。
+Moderator: 根据游戏规则和你的角色，基于当前的情况和你获得的信息，为了赢得游戏，现在是时候在存活的玩家中投票淘汰一个玩家。你投票淘汰Player4, Player1, Player6, Player5, Player2 and Player3中哪个玩家？
+Player2: Player5
+Player6: Player4
+Player3: 
+2025-03-18 09:56:18.823 | WARNING  | werewolf_utils:extract_name_and_id:43 - vote: invalid name , set to Abstain
+Player5:  
+2025-03-18 09:56:19.778 | WARNING  | werewolf_utils:extract_name_and_id:43 - vote: invalid name  , set to Abstain
+Player4:  Player1
+Player1: 
+2025-03-18 09:56:21.444 | WARNING  | werewolf_utils:extract_name_and_id:43 - vote: invalid name , set to Abstain
+Moderator: 你们之间意见并不一致，请再互相讨论一下，达成一致的意见。
+Player3: 大家都有权利被质疑,但是从整个游戏的动态来看,Player1的行动确实稍有些不寻常。所以我想邀请他先来解释一下,特别是关于最近夜晚讨论时的行为。
+Player1: Player1,你能和我们分享一下你昨晚参与详情以及你的行为为什么未被选为讨论目标吗？我注意到游戏进行到现在,你的角色可能存在一定的疑问。
+Player2: Player1,您能解释一下您昨晚在讨论时为什么会未被选为关注的重点吗？特别是在我们决定淘汰策略时,您未被提及是否特别引起了我们的注意。
+Player4: Player1,最近的反馈略有提及你在讨论时的表现,我感觉到有些微妙的变化。我个人倾向观察社群如何就此议题达成一致,并准备好在合适的时机进行投票。你们觉得,Player1最近的举动有什么特别之处吗？
+Player5: 在这场游戏的关键时刻,Player1的举止引人注目。出于对团队和谐与真相追寻的考虑,我认为邀请Player1来分享他是最合适不过的。我相信这是一个为所有人创造机会,共同加深对各个角色理解的过程。
+Player6: Player1,对于最近的讨论动态,我们都没有对手上行动的明确疑虑。在这个过程中,保持沟通与理解对团队至关重要。如果你有故事或考虑分享,我们都乐于倾听,从而继续推动游戏向有利于所有玩家的合作方向发展。
+Moderator: 根据游戏规则和你的角色，基于当前的情况和你获得的信息，为了赢得游戏，现在是时候在存活的玩家中投票淘汰一个玩家。你投票淘汰Player3, Player1, Player2, Player4, Player5 and Player6中哪个玩家？
+Player4: Player1
+Player6: Player1
+Player3: Player1
+Player2: \_
+2025-03-18 09:56:36.564 | WARNING  | werewolf_utils:extract_name_and_id:43 - vote: invalid name \_, set to Abstain
+Player5: Player1
+Player1: Player3
+Moderator: Player1被投票淘汰了。
+Moderator: 游戏继续。
+Moderator: Player2 and Player6, 如果你是唯一的狼人，选择一个玩家淘汰。如果不是，请与你的队友讨论并达成一致意见。
+Player6: 玩家社区,我认为我们可以从今晚继续拓展信息,使用预言家或者女巫的能力帮助我们识别潜在的狼人。谁愿意尝试他们的特殊技能？
+Player2: Player3的行为最近有了一些微妙的变化,我认为这可能是验证其身份的证据。我们可以尝试使用预言家的能力,将他列为我们的焦点。如果验证结果确认Player3是真的狼人,我们将他淘汰,以减少我们的潜在危险。
+Moderator: 你投票淘汰Player4, Player6, Player3, Player2 and Player5中哪个玩家？
+Player6: Player3
+Player2: Player3
+Moderator: 得票最多的玩家是Player3.
+Moderator: Player4, 你是预言家。今晚你想查验Player4, Player6, Player3, Player2 and Player5中的哪个玩家？
+Player4: Player6
+Moderator: 好的，Player6的角色是狼人.
+Moderator: 狼人获胜，占领了村庄。下次好运！

@@ -1,0 +1,46 @@
+2025-03-18 10:27:20.384 | INFO     | agentscope.models:read_model_configs:186 - Load configs for model wrapper: my_model_config
+2025-03-18 10:27:20.426 | INFO     | agentscope.models.model:__init__:201 - Initialize model by configuration [my_model_config]
+2025-03-18 10:27:20.426 | INFO     | agentscope.models.model:__init__:201 - Initialize model by configuration [my_model_config]
+2025-03-18 10:27:20.429 | INFO     | agentscope.models.model:__init__:201 - Initialize model by configuration [my_model_config]
+2025-03-18 10:27:20.429 | INFO     | agentscope.models.model:__init__:201 - Initialize model by configuration [my_model_config]
+2025-03-18 10:27:20.430 | INFO     | agentscope.models.model:__init__:201 - Initialize model by configuration [my_model_config]
+2025-03-18 10:27:20.431 | INFO     | agentscope.models.model:__init__:201 - Initialize model by configuration [my_model_config]
+Moderator: 狼人们，请在讨论阶段确认彼此身份：Player3 and Player6
+Player3: 大家好,我是Player3。我觉得我们应该仔细分析每个人的发言,找出可疑的玩家。
+Player6: 我同意Player3的观点。我们应该仔细分析每个人的发言,找出可疑的玩家。不过我觉得Player1和Player2的发言有些可疑,需要重点关注。
+Moderator: Player3 and Player6, 如果你是唯一的狼人，选择一个玩家淘汰。如果不是，请与你的队友讨论并达成一致意见。
+Player3: 我觉得Player1的发言有些可疑,他一直在引导大家怀疑Player2,这可能是为了转移注意力。我们应该重点关注Player1。
+Player6: 我同意Player3的观点,Player1的发言确实有些可疑。他一直在引导大家怀疑Player2,这可能是为了转移注意力。我们应该重点关注Player1,并考虑在今晚淘汰他。
+Moderator: 你投票淘汰Player1, Player2, Player3, Player4, Player5 and Player6中哪个玩家？
+Player3: Player1
+Player6: Player1
+Moderator: 得票最多的玩家是Player1.
+Moderator: Player2，你是女巫。今晚Player1被淘汰。你想复活Player1吗？
+Player2: 我不确定Player1的身份,复活他可能会带来风险。
+Moderator: 女巫选择不复活Player1。
+Moderator: Player2，你是女巫，今晚你想淘汰Player1, Player2, Player3, Player4, Player5 and Player6中的一个玩家吗？如果是，请指定玩家的名字。
+Player2: 我暂时不使用毒药,我们需要更多信息来判断谁是狼人。
+2025-03-18 10:29:42.601 | WARNING  | werewolf_utils:extract_name_and_id:43 - vote: invalid name 我暂时不使用毒药,我们需要更多信息来判断谁是狼人。, set to Abstain
+Moderator: 你选择了错误的玩家姓名，请重新选择
+Moderator: Player2，你是女巫，今晚你想淘汰Player1, Player2, Player3, Player4, Player5 and Player6中的一个玩家吗？如果是，请指定玩家的名字。
+Player2: 我暂时不使用毒药,我们需要更多信息来判断谁是狼人。
+2025-03-18 10:29:55.789 | WARNING  | werewolf_utils:extract_name_and_id:43 - vote: invalid name 我暂时不使用毒药,我们需要更多信息来判断谁是狼人。, set to Abstain
+Moderator: 好的，游戏继续
+Moderator: Player1, 你是预言家。今晚你想查验Player1, Player2, Player3, Player4, Player5 and Player6中的哪个玩家？
+Player1: Player2
+Moderator: 好的，Player2的角色是村民.
+Moderator: 天亮了，所有玩家睁开眼睛。昨晚，以下玩家被淘汰：Player1。 
+Moderator: 现在存活的玩家有Player2, Player3, Player4, Player5 and Player6。根据游戏规则和你的角色，基于当前的情况和你获得的信息，要在存活的玩家中投票淘汰一个玩家并赢得游戏，你想对其他人说些什么？你可以决定是否揭示你的角色。
+Player5: Player2已经表明自己是村民,这给了我们一些信息。我们需要继续观察其他玩家的发言,看看是否有可疑之处。大家有什么发现吗？
+Player2: Player1被淘汰了,但我们还不知道他的身份。大家有什么发现吗？我们需要仔细分析每个人的发言,看看有没有可疑之处。
+Player4: Player1被淘汰了,但我们还不知道他的身份。Player2已经表明自己是村民,这给了我们一些信息。我们需要继续观察其他玩家的发言,看看是否有可疑之处。大家有什么发现吗？
+Player6: Player1被淘汰了,但我们还不知道他的身份。Player2已经表明自己是村民,这给了我们一些信息。我们需要继续观察其他玩家的发言,看看是否有可疑之处。大家有什么发现吗？我觉得Player4和Player5的发言有些可疑,需要重点关注。
+Player3: Player1被淘汰了,但我们还不知道他的身份。Player2已经表明自己是村民,这给了我们一些信息。我们需要继续观察其他玩家的发言,看看是否有可疑之处。大家有什么发现吗？我觉得Player4和Player5的发言有些可疑,需要重点关注。
+Moderator: 根据游戏规则和你的角色，基于当前的情况和你获得的信息，为了赢得游戏，现在是时候在存活的玩家中投票淘汰一个玩家。你投票淘汰Player5, Player2, Player4, Player6 and Player3中哪个玩家？
+Player6: Player5
+Player5: Player5
+Player3: Player5
+Player2: Player5
+Player4: Player5
+Moderator: Player5被投票淘汰了。
+Moderator: 狼人获胜，占领了村庄。下次好运！
